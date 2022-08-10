@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "syakimod",
+  "version": "${version}",
+  "name": "SyakiMod",
+  "description": "Meow",
+  "authors": [
+    "Nyako"
+  ],
+  "contact": {
+    "website": "https://github.com/NyakoFox/SyakiMod",
+    "repo": "https://github.com/NyakoFox/SyakiMod"
+  },
+  "license": "MIT",
+  "icon": "assets/syakimod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "gay.nyako.syakimod.client.SyakimodClient"
+    ],
+    "main": [
+      "gay.nyako.syakimod.SyakiMod"
+    ]
+  },
+  "mixins": [
+    "syakimod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

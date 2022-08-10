@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gay.nyako.syakimod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CreeperExplodeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
