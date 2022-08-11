@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "syakimod:block/iron_crafting_table_side",
+    "north": "syakimod:block/iron_crafting_table_side",
+    "south": "syakimod:block/iron_crafting_table_side",
+    "east": "syakimod:block/iron_crafting_table_side",
+    "west": "syakimod:block/iron_crafting_table_side",
+    "up": "syakimod:block/iron_crafting_table_top",
+    "down": "syakimod:block/iron_crafting_table_bottom"
+  }
+}

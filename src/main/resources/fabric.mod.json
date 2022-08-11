@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "gay.nyako.syakimod.client.SyakimodClient"
+      "gay.nyako.syakimod.client.SyakiModClient"
     ],
     "main": [
       "gay.nyako.syakimod.SyakiMod"
@@ -29,5 +29,6 @@
     "fabricloader": ">=0.14.9",
     "fabric": "*",
     "minecraft": "1.18.2"
-  }
+  },
+  "accessWidener" : "syakimod.accesswidener"
 }

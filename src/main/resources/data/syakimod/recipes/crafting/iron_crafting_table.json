@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "syakimod:iron_crafting_core"
+    }
+  },
+  "result": {
+    "item": "syakimod:iron_crafting_table"
+  }
+}
